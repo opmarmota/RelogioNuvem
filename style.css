@@ -1,0 +1,42 @@
+body {
+  font-family: system-ui;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: black;
+  font-size: 60px;
+  font-family: system-ui;
+  letter-spacing: 6px;
+}
+
+.caixa {
+  width: auto;
+  height: auto;
+  background-color: #f0f0f0;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.manha {
+  background-image: url("https://luben.tv/wp-content/uploads/2013/03/hFcjAFC.gif");
+}
+
+.tarde {
+  background-image: url("https://1.bp.blogspot.com/-BcwQ3WRqNe8/UnqBhFV-dfI/AAAAAAAAHK8/9p8rj5ng0yM/s1600/cenarios_acriativos-43.gif");
+}
+
+.noite {
+  background-image: url("https://64.media.tumblr.com/beec337aedc33e0ebd60636d4bfd55a2/18c7e031543113ef-38/s500x750/e7bba40f8feceebf12bdded77d73d13d7509ecac.gifv");
+}
